@@ -1,0 +1,66 @@
+1.)
+	What is the algorithm trying to achieve? 
+		-	Whether or not the number passed is even or odd
+	Algorithmic complexity?
+		-	O(1)
+	How was the algorithmic complexity determined?
+		-	By the fact that there is no loop in the method, only linear calculations
+		
+2.) 
+	What is the algorithm trying to achieve?
+		-	Trying to find a match from the first array with the second array.  Returns true when a match is found.
+	Algorithmic complexity?
+		-	O(n)^2
+	How was the algorithmic complexity determined?
+		-	There are 2 loops: in the worst case (i.e. returning false) the 1st array is looped over (making it O(n))
+		 and within that loop the second array is looped over at each iteration (making it O(n)^2).
+3.)
+	What is the algorithm trying to achieve?
+		-	Doubles all of the element values in the array.
+	Algorithmic complexity?
+		-	O(n)
+	How was the algorithmic complexity determined?
+		-	It loops over the array only once making it O(n)
+4.)
+	What is the algorithm trying to achieve?
+		-	Looping over a passed in array and when the passed in value is found, the index of the array at the finding point is returned.
+	Algorithmic complexity?
+		-	O(n)
+	How was the algorithmic complexity determined?
+		-	The array is only looped over once, and the calculations are performed within the loop making it O(n).
+5.)
+	What is the algorithm trying to achieve?
+		-	It is logging the pair of numbers that is created for each element in the first array, and matching it with
+			elements in the second array starting at the index which the first array is at in the loop.
+	Algorithmic complexity?
+		-	O(n)^2
+	How was the algorithmic complexity determined?
+		-	Because there is a nested loop making it so that for each loop in the first array (O(n)) the second array is looped over (O(n)^2)
+6.)
+	What is the algorithm trying to achieve?
+		-	To find the sequence of numbers in fibonacci's sequence up to the number passed in.
+	Algorithmic complexity?
+		-	O(n)
+	How was the alrgorithmic complexity determined?
+		-	There is only 1 loop looping up to the number passed in, hence is O(n)
+7.)
+	What is the algorithm trying to achieve?
+		-	Find a passed in value within a passed in array
+	Algorithmic complexity?
+		-	O(log(n))
+	How was the algorithmic complexity determined?
+		-	For each iteration, the size of the searched over dataset is halved, hence the complexity is non-linearly reduced for each iteration
+8.)
+	What is the algorithm trying to achieve?
+		-	Find a random element
+	Algorithmic complexity?
+		-	O(1)
+	How was the alrgorithmic complexity determined?
+		-	For each call to the method, it only performs one operation where it finds a random integer.
+9.)
+	What is the algorithm trying to achieve?
+		-	Figure out if the number passed in is prime
+	Algorithmic complexity?
+		-	O(n)
+	How was the alrgorithmic complexity determined?
+		-	The loop within the method is iterated exactly the amount of times of the number passed in (unless it is not prime in which case it loops less than n times)

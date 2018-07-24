@@ -64,3 +64,19 @@
 		-	O(n)
 	How was the alrgorithmic complexity determined?
 		-	The loop within the method is iterated exactly the amount of times of the number passed in (unless it is not prime in which case it loops less than n times)
+		
+RECURSIVE ALGORITHMS BIG O TIME:
+
+1.)	Count Sheep: O(n) : The method loops by calling itself with a decrement of the number passed in.
+2.) Array Double: O(n) : The array is looped over by having the method call itself only once.
+3.) Reverse String: O(n) : The string is looped over per its length by having the method call itself.
+4.) nth Triangle Number: O(n): The "nth" triangle is deduced by looping over the method 'n' times.
+5.) String splitter: O(n) : Though there are multiple operations being parsed in the method, the method runs O(n) times.
+6.) Binary Representation: O(log(n)) : The amount of times the method has to be looped over is divided by 2 each time it runs.
+7.) Factorial: O(n) : The method is looped over as many times as is passed in for the number being factorialed.
+8.) Fibonacci: O(n) : The method is looped over as many times as is passed in in terms of the steps for each factorial step.
+9.) Anagrams: O(n!) : The amount of anagrams created from a given word is the amount of letters in the word factorialed, so the big O time is n factorialed.
+10.) Animal Hierachy: O(n^2) : For each element in the array that is being processed, the array itself is looped over to find relevant data, hence n^2.
+11.) Organization Chart: O(n^2) : Same thing: for each element the array itself is looped over hence n^2.
+
+INTERATIVE ALGORITHMIC BIG O TIME: Should be the same big O time as with recursion.
